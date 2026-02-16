@@ -6,7 +6,6 @@
 <title>Administración de Proyectos</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 <style>
 :root{
@@ -45,6 +44,8 @@ nav{
     background:var(--color-principal);
     padding:12px;
     text-align:center;
+    position:sticky;
+    top:0;
 }
 
 nav a{
@@ -153,12 +154,6 @@ footer{
     background:var(--color-principal);
     color:white;
 }
-
-/* PDF */
-iframe{
-    border-radius:12px;
-    box-shadow:0 4px 12px rgba(0,0,0,0.1);
-}
 </style>
 </head>
 
@@ -185,152 +180,4 @@ iframe{
 <a href="#fuentes">Fuentes</a>
 </nav>
 
-<section id="intro">
-<div class="card">
-<h2>1. Introducción a la Administración de Proyectos</h2>
-<p>La Administración de Proyectos consiste en la aplicación sistemática de conocimientos, habilidades y herramientas para alcanzar objetivos dentro de restricciones de tiempo, costo y alcance.</p>
-<p>Un proyecto es un esfuerzo temporal orientado a generar un producto o servicio único.</p>
-</div>
-</section>
-
-<section id="elementos">
-<div class="card">
-<h2>2. Elementos Clave</h2>
-<ul>
-<li>Objetivos</li>
-<li>Alcance</li>
-<li>Tiempo</li>
-<li>Costo</li>
-<li>Calidad</li>
-<li>Riesgos</li>
-<li>Stakeholders</li>
-</ul>
-</div>
-</section>
-
-<section id="ciclo">
-<div class="card">
-<h2>3. Ciclo de Vida</h2>
-<ol>
-<li>Inicio</li>
-<li>Planeación</li>
-<li>Ejecución</li>
-<li>Monitoreo y Control</li>
-<li>Cierre</li>
-</ol>
-</div>
-</section>
-
-<section id="roles">
-<div class="card">
-<h2>4. Roles</h2>
-<ul>
-<li>Director del Proyecto</li>
-<li>Equipo de Trabajo</li>
-<li>Patrocinador</li>
-<li>Stakeholders</li>
-</ul>
-</div>
-</section>
-
-<section id="herramientas">
-<div class="card">
-<h2>5. Herramientas</h2>
-<ul>
-<li>EDT</li>
-<li>Diagrama de Gantt</li>
-<li>Matriz de Riesgos</li>
-<li>Plan de Comunicación</li>
-</ul>
-</div>
-</section>
-
-<section id="mapa">
-<div class="card">
-<h2>Mapa Mental</h2>
-<div class="mapa-mental">
-<div class="rama">
-<h3>Tradicionales</h3>
-<p>Cascada</p>
-<p>PMBOK</p>
-<p>PRINCE2</p>
-</div>
-
-<div class="centro">
-Metodologías<br>AP
-</div>
-
-<div class="rama">
-<h3>Ágiles</h3>
-<p>Scrum</p>
-<p>Kanban</p>
-<p>XP</p>
-</div>
-</div>
-</div>
-</section>
-
-<section id="comparativo">
-<div class="card">
-<h2>Cuadro Comparativo</h2>
-<table class="tabla">
-<tr>
-<th>Aspecto</th>
-<th>Tradicional</th>
-<th>Ágil</th>
-</tr>
-<tr>
-<td>Enfoque</td>
-<td>Secuencial</td>
-<td>Iterativo</td>
-</tr>
-<tr>
-<td>Flexibilidad</td>
-<td>Baja</td>
-<td>Alta</td>
-</tr>
-<tr>
-<td>Documentación</td>
-<td>Extensa</td>
-<td>Ligera</td>
-</tr>
-</table>
-</div>
-</section>
-
-<section id="reporte">
-<div class="card">
-<h2>Reporte CE1.3 – Scrum</h2>
-
-<a href="./reporte_CE1_3.pdf" target="_blank">
-<button>Descargar PDF</button>
-</a>
-
-<br><br>
-
-<iframe src="./reporte_CE1_3.pdf" width="100%" height="650px"></iframe>
-
-</div>
-</section>
-
-<section id="fuentes">
-<div class="card">
-<h2>Fuentes</h2>
-<p>Highsmith (2009). Agile Project Management.</p>
-<p>PMI (2021). PMBOK Guide.</p>
-<p>Kerzner (2017). Project Management.</p>
-</div>
-</section>
-
-<footer>
-<p>© 2026 Administración de Proyectos</p>
-</footer>
-
-<script>
-function modoOscuro(){
-document.body.classList.toggle("dark");
-}
-</script>
-
-</body>
-</html>
+<section id="intr
