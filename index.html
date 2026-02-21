@@ -121,6 +121,7 @@ font-weight:bold;
 <p>Materia: Administración de Proyectos</p>
 <p>Unidad I – Fundamentos de la Administración de Proyectos</p>
 <button onclick="modoOscuro()">Modo Claro / Oscuro</button>
+<button onclick="descargarPDF()">Descargar PDF</button>
 </header>
 
 <nav>
@@ -206,10 +207,8 @@ font-weight:bold;
 <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d" alt="Metodologías ágiles y tradicionales">
 <h3>Tradicionales</h3>
 <p>Cascada y PMBOK siguen un enfoque estructurado y predictivo.</p>
-
 <h3>Ágiles</h3>
 <p>Scrum y Kanban permiten adaptabilidad y entregas incrementales.</p>
-
 <h3>Diferencias</h3>
 <p>Las tradicionales planifican todo al inicio; las ágiles evolucionan.</p>
 </div>
@@ -271,7 +270,13 @@ font-weight:bold;
 function modoOscuro(){
 document.body.classList.toggle("dark");
 }
+
+function descargarPDF(){
+window.print();
+}
 </script>
 
 </body>
 </html>
+
+
